@@ -1,0 +1,44 @@
+ETL:
+	- Signifies how data pipelines are designed and structured
+	- Serve as a blueprint for how transformation of a raw data takes place to analysis-ready data
+
+Extract(E):
+	- Sensors detect if there is any data land for transformation from any of the sources.
+	- It transfer data for "transformation"
+
+Transform(T):
+	- Transform data to analysis-ready data
+	- Consider an heart of ETL
+	- Perform actions like data aggregation, filtering and grouping 
+
+Load(L):
+	- Load the processed data and transport them to a final destination.
+	- Often this dataset is consumed by end-user directly or will be used for further ETL(a.k.a data lineage)
+
+
+Features to consider while selecting ETL framework:
+-> Configuration
+	Automate Dataflow of a data-pipeline
+
+-> UI, Monitoring and Alerts:
+	
+
+-> Backfilling:
+	Two processes:
+		- Process historical data
+		- Process current or futuristic metrics
+	- Backfilling represents how to handle historical data
+
+
+Paradigms (SQL vs JVM Centric ETL):
+	-> JVM Centric ETL:
+		-> built on JVM based language such as Java or Scala	
+		-> Transformation in imperative way (key-value pairs)
+		-> Writing UDFs is less painful and easy to test
+
+	-> SQL Centric ETL:
+		-> built on languages like SQL, Presto or Hive
+		-> Declaritive way (revolve around SQL and tables)
+		-> Writing UDFs is troublesome as we must need to write in a different language (eg Java or Python)
+			and testing become challenging in it
+

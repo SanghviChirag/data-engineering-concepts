@@ -1,0 +1,19 @@
+Data Science: The AI Hierarchy of needs
+:: COLLECT ::
+	- Instrumentation, Logging, Sensors, External Data, User Generated Content
+
+:: MOVE / STORE ::
+	- Reliable DataFlow, Infrastructure, Pipelines, ETL, Structured and Unstructured Data Storage
+
+:: EXPLORE / TRANSFORM ::
+	- Cleaning, Anomaly Detection, Prep
+
+:: AGGREGATE / LABEL ::
+	- Analytics, Metrics, Segments, Aggregates, Features, Training Data
+
+:: LEARN / OPTIMIZE ::
+	- A/B Testing, Experimentation, Simple ML Algorithms
+
+:: PREDICTION ::
+	- AI / Deep learning 
+	

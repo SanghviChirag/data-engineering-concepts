@@ -1,0 +1,4 @@
+Data Engineering:
+	- It is a field which considered as a superset of "business intelligence" and "data warehousing" that brings more elements from Software Engineering. 
+	- This discipline also integrates specialization around the operation of so called "big data" distributed system, along with concepts around the extended Hadoop ecosystems, stream processing and in computation at scale
+  

@@ -1,0 +1,23 @@
+OLTP(Online Transaction Processing System):
+	- Critical to optimize production databases
+
+OLAP (Online Analytical Processing System):
+	- Focus on insight generation (i.e. analytical reasoning can be translated into queries easily and statistics can be computed efficiently)
+
+OLAP:
+	- it involves design process which is called as Data Modeling
+
+	Data Modeling:
+		-> It is a process of designing a schema aiming simpler query and faster processing of data
+		-> Star Schema is one of the method for Data Modeling
+			- It includes Fact and Dimensional Tables
+			Fact Table
+				- Fact Tables can be considered as source of truth for various business metrics
+				- There can be multiple fact tables which aim to solve different use-cases
+
+			Dimensional Table:
+				- Slowly changing attributes of specific entities, and attributes sometimes can be organized in a hierarchical structure
+
+
+	Data Partitioning and Backfilling Historical Data:
+		-> 

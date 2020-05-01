@@ -1,0 +1,12 @@
+Even after data modeling, query on huge data will be inefficient over time. To overcome that, we need to do data partitioning. 
+
+Data Partioning:
+	-> Improve query performance
+	-> Data has been stored in multiple chunks, each chunk will have partition key via which query can quickly and easily be performed
+	-> Most common partition key is datestamp(ds)
+
+BackFilling Historical Data:
+	-> represent a process of historical data
+	Dynamic Partition:
+		-> A construct that used to perform same SQL operations over many partitions and perform multiple inserations at once.
+		-> Hive provides such functionality 
